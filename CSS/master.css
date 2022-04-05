@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #eeebeb60;
+}
 .head{
     width: 1800px;
     margin-left: 20px;
     line-height: 54px;
-    height: 54px;
+    height: 65px;
+    background-color:#ffffff;
 }
 
 h1{
@@ -23,24 +27,62 @@ h1{
     margin-right: 220px;
     margin-left: 220px;
     margin-top: 60px;
-    background-color:#aba0a0
+    background-color:#ffffff;
+    border: white solid;
+    border-radius: 10px;
 }
 
 
 .container2{
-    padding: 20px 80px 10px 80px;
+    padding: 30px 40px 10px 50px;
 }
 
 .task{
-    background-color: skyblue;
-    border: 2px solid skyblue;
-    border-radius: 4%;
+    background-color: rgb(16, 162, 241);
+    border: 2px solid rgb(16, 162, 241);
+    border-radius: 3px;
     margin-right: 5px;
+    color: #ffffff;
 }
 
 .selection{
     border: 2px solid #706969;
-    border-radius: 4%;
+    border-radius: 3px;
     color: #706969;
 }
 
+
+ul{
+    padding: 20px 10px;
+    list-style-type: none;
+
+}
+
+small{
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 3px;
+    color:white;
+}
+
+.blu{
+    background-color:rgb(16, 162, 241);
+    border-color: rgb(16, 162, 241);
+}
+
+a{
+    display: inline-grid;
+    border: 1px solid;
+    width: 23px;
+    height: 23px;
+    font-size: 21px;
+    padding: 4px;
+    border-radius: 50%;
+    color: green;
+    align-content: center;
+}
+
+.pointer{
+    font-size: 15px;
+    display: inline-block;
+}
